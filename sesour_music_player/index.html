@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html><head>
+<html>
+<head>
 	<meta charset="utf-8">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 	<title>세수르 뮤직 플레이어</title>
-	<meta name="description" content="세수르 뮤직 플레이어 하단 웹 페이지">
+	<meta name="description" content="세수르 뮤직 플레이어 홈페이지입니다.">
 	<link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
@@ -13,7 +15,7 @@
 	<link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
 	<link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="/images/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/android-icon-192x192.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
@@ -21,9 +23,79 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	<link rel="stylesheet" type="text/css" href="css/basic.css">
+	<link rel="canonical" href="https://sesour.github.io/sesour_music_player/index.html">
+	<meta property="og:type" content="website"> 
+	<meta property="og:title" content="세수르 뮤직 플레이어">
+	<meta property="og:description" content="세수르 뮤직 플레이어 홈페이지입니다.">
+	<meta property="og:image" content="https://sesour.github.io/sesour_music_player/images/sesour256.png">
+	<meta property="og:url" content="https://sesour.github.io/sesour_music_player/index.html">
+	<meta property="al:web:url" content="https://sesour.github.io/sesour_music_player/index.html">
+	<script type="application/ld+json">
+{
+ "@context": "http://schema.org",
+ "@type": "Person",
+ "name": "세수르 뮤직 플레이어",
+ "url": "https://sesour.github.io/sesour_music_player/",
+ "sameAs": [
+   "https://www.youtube.com/channel/UCnrVhi7XhnSXjhWdMMk1iYg",
+   "https://www.twitch.tv/sesour7",
+   "https://www.sesour.com/"
+ ]
+}
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="fonts/font.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
-	<a href="files/latest-release.zip" target="_blank">세수르 뮤직 플레이어 최신 버전 다운로드</a>
+	<div id="content_wrapper">
+		<section>
+			<div id="content">
+				<div id="result_left_wrapper">
+					<img id="result_left" src="images/screenshot_left.png" />
+				</div>
+				<div id="profile_wrapper">
+					<article>
+						<table>
+							<tr>
+								<td><img style="padding-top:20px;" src="images/sesour256.png"/></td>
+							</tr>
+							<tr>
+								<td style="height:60px;">
+								<p>
+									<a href="files/latest-release.zip" target="_blank" style="font-size:14px;color:yellow;">[최신 버전 다운로드]</a><br/><br/>
+								</p>
+								<p>
+								게임 전문 스트리머 세수르가 <br/>
+								사용하는 뮤직 플레이어입니다.<br/>
+								문의는 <A href="mailto:sesour7@gmail.com">sesour7@gmail.com</a>로 부탁드립니다.
+								</p>
+								</td>
+							</tr>
+							<tr>
+								<td id="shortcut_list">
+									전적확인 : 
+									<a href="https://dak.gg/profile/Twitch__Sesour/" target="_blank"><img src="images/steam_logo_circle32.png" alt="Twitch__Sesour 스팀 전적 확인"/></a>
+									<a href="https://dak.gg/profile/Twitch_Sesour" target="_blank"><img src="images/kakaogames32.png" alt="Twitch_Sesour 카카오 전적 확인"/></a>						
+								</td>
+							</tr>
+							<tr>
+								<td id="shortcut_list">
+									<a href="https://www.youtube.com/channel/UCnrVhi7XhnSXjhWdMMk1iYg" target="_blank"><img src="images/youtube32.png" alt="유튜브 링크 이미지"/></a>
+									<a href="https://www.twitch.tv/sesour7" target="_blank"><img src="images/twitch32.png" alt="트위치 링크 이미지"/></a>
+									<a href="https://tgd.kr/sesour7" target="_blank"><img src="images/tgether_custom32.png" alt="트게더 링크 이미지"/></a>
+									<a href="https://www.instagram.com/sesour_oilking/" target="_blank"><img src="images/instagram32.png" alt="인스타그램 링크 이미지"/></a>							
+								</td>
+							</tr>
+						</table>
+					</article>
+				</div>
+				<div id="result_right_wrapper">
+					<img id="result_right" src="images/screenshot_right.png" />
+				</div>
+			</div>
+		</section>
+	</div>
 </body>
 </html>
