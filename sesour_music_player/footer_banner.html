@@ -22,20 +22,27 @@
 	<meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 	<link rel="stylesheet" type="text/css" href="css/basic.css">
-	<!--<link rel="stylesheet" type="text/css" href="css/slider.css">-->
+	<link rel="stylesheet" type="text/css" href="css/slider.css">
 </head>
 <body>
-	<a href="https://www.youtube.com/channel/UCnrVhi7XhnSXjhWdMMk1iYg" target="_blank"><img src="./images/footer_banner02.png" style="width:100%" /></a>
-	<!--
-	<div class="slideshow-container">
-		<div class="mySlides fade">
+	<!--<a href="https://www.youtube.com/channel/UCnrVhi7XhnSXjhWdMMk1iYg" target="_blank"><img src="./images/footer_banner02.png" style="width:100%" /></a>-->
+	<div class="slide-container">
+		<div style="display:block;">
+			<img src="./images/footer_banner01.png" style="width:100%" />
+		</div>
+		<div style="display:none;">
 			<img src="./images/footer_banner02.png" style="width:100%" />
 		</div>
-		<div class="mySlides fade">
-			<img src="./images/footer_banner02.png" style="width:100%" />
-		</div>
-	</div>	
-	<script src="js/slider.js"></script>
+	</div>
+	<!-- 슬라이딩 이미지
+	<div class="sliding-container">
+		<ul>
+			<li><img src="./images/footer_banner01.png" /></li>
+			<li><img src="./images/footer_banner02.png" /></li>
+		</ul>
+	</div>
 	-->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/slider.js"></script>
 </body>
 </html>
